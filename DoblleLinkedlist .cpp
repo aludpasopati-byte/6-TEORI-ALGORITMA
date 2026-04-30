@@ -229,4 +229,15 @@ int main()
         cout << "6. Exit\n";
         cout << "Enter your choice: ";
 
-        
+        cin >> choice;
+
+        switch (choice)
+        {
+        case '1':
+            list.addNode();
+            break;
+        case '2':
+            list.hapus();
+            break;
+        case '3':
+         
